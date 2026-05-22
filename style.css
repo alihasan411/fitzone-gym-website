@@ -1819,3 +1819,24 @@ footer{
 nav ul li a{
     font-size:14px;
 }
+
+
+
+
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:58px;
+    }
+
+    .hero p{
+        width:90%;
+        margin:auto;
+    }
+
+    .hero-btns{
+        margin-top:25px;
+    }
+
+}
