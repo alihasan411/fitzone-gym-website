@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Website</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  
+  
+  <!-- LOADER -->
+
+<div id="loader">
+
+    <div class="loader-content">
+
+        <h1>FIT<span>ZONE</span></h1>
+
+        <div class="loader-bar">
+            <div class="loader-fill"></div>
+        </div>
+
+    </div>
+
+</div>
+  
+  
+  
+  <div id="progressBar"></div>
+
+  <!-- HEADER -->
+
+<header>
+
+    <div class="logo">FITZONE</div>
+<div class="menu-toggle">
+    ☰
+</div>
+  <nav>
+ <ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#programs">Programs</a></li>
+
+<li><a href="#trainers">Trainers</a></li>
+
+<li><a href="#membership">Membership Plans</a></li>
+
+<li><a href="#bmi">BMI Calculator</a></li>
+
+<li><a href="#schedule">Schedule</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#reviews">Client Reviews</a></li>
+
+
+<li>
+   <a href="#signup">
+      Join FitZone
+   </a>
+</li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+</nav>
+
+</header>
+
+<!-- HERO SECTION -->
+
+<section id="home" class="hero">
+<h1>
+   <span class="typing"></span>
+</h1>
+  
+
+    <p>
+        Build strength, confidence and the perfect physique with our professional trainers and modern fitness programs.
+    </p>
+
+    <div class="hero-btns">
+
+       <a href="#signup" class="btn">
+    Join Now
+</a>
+
+      <a href="about.html" class="btn btn2">
+    Explore More
+</a>
+
+    </div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2 class="count" data-target="10">0</h2>
+        <p>Years Experience</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="count" data-target="500">0</h2>
+        <p>Happy Members</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="count" data-target="15">0</h2>
+        <p>Professional Trainers</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="count" data-target="24">0</h2>
+        <p>Support Available</p>
+    </div>
+
+</section>
+
+
+<!-- PROGRAMS -->
+
+<section class="programs reveal" id="programs">
+
+    <h2 class="section-title">
+        Our <span>Programs</span>
+    </h2>
+
+    <div class="program-container">
+
+        <div class="program-card">
+
+            <h3>Fitness Programs</h3>
+
+            <p>
+                Explore our professional workout
+                programs including bodybuilding,
+                cardio, strength training and more.
+            </p>
+
+            <a href="programs.html" class="btn">
+                View Programs
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- TRAINERS -->
+
+<section class="trainers reveal" id="trainers">
+
+    <h2 class="section-title">
+        Our <span>Trainers</span>
+    </h2>
+
+    <div class="trainer-container">
+
+        <div class="trainer-card">
+
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop">
+
+            <div class="trainer-info">
+
+                <h3>Professional Trainers</h3>
+
+                <p>
+                    Meet our certified fitness
+                    trainers with expertise in
+                    bodybuilding, cardio,
+                    strength and nutrition.
+                </p>
+
+                <a href="trainers.html" class="btn">
+                    View Trainers
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MEMBERSHIP SECTION -->
+
+<section class="membership reveal" id="membership">
+
+    <h2 class="section-title">
+        Membership <span>Plans</span>
+    </h2>
+
+    <!-- MAIN CARD -->
+
+    <div class="main-membership-card">
+
+        <div class="membership-img">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop">
+        </div>
+
+        <div class="membership-content">
+
+            <h3>Choose Your Fitness Plan</h3>
+
+            <p>
+                Explore premium gym membership plans
+                designed for beginners, athletes,
+                and professionals.
+            </p>
+
+            <a href="membership.html" class="btn">
+                View Plans
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WORKOUT SCHEDULE -->
+
+<section class="schedule reveal" id="schedule">
+
+    <h2 class="section-title">
+        Workout <span>Schedule</span>
+    </h2>
+
+    <div class="schedule-container">
+
+        <div class="schedule-card">
+
+            <h3>Weekly Workout Plan</h3>
+
+            <p>
+                Explore complete weekly workout
+                routine with training days,
+                cardio sessions and muscle plans.
+            </p>
+
+            <a href="schedule.html" class="btn">
+                View Schedule
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- IMAGE SLIDER -->
+
+<section id="highlights" class="slider-section">
+
+    <h2 class="section-title">
+        Gym <span>Highlights</span>
+    </h2>
+
+    <div class="slider">
+
+        <div class="slides">
+
+            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1470&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1470&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1470&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- BMI SECTION -->
+
+<section class="bmi reveal" id="bmi">
+
+    <h2 class="section-title">
+        Calculate Your <span>BMI</span>
+    </h2>
+
+    <!-- MAIN BMI CARD -->
+
+    <div class="main-bmi-card">
+
+        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop">
+
+        <div class="main-bmi-content">
+
+            <h3>Body Mass Index Calculator</h3>
+
+            <p>
+                Check your fitness level using
+                our professional BMI calculator.
+            </p>
+
+            <a href="bmi.html" class="btn">
+                Open Calculator
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- SIGNUP SECTION -->
+
+<section id="signup" class="signup reveal">
+
+    <h2 class="section-title">
+        Join <span>FITZONE</span>
+    </h2>
+
+    <div class="trainer-container">
+
+        <div class="trainer-card">
+
+            <!-- IMAGE -->
+
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop">
+
+            <!-- CONTENT -->
+
+            <div class="trainer-info">
+
+                <h3>
+                    Join FitZone Gym
+                </h3>
+
+                <p>
+                    Start your fitness journey
+                    with professional trainers,
+                    modern equipment and powerful
+                    workout programs.
+                </p>
+
+                <a href="membership.html" class="btn">
+                    Join Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact reveal">
+
+    <h2 class="section-title">
+        Contact <span>Us</span>
+    </h2>
+
+    <form>
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button class="btn">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- TESTIMONIALS -->
+
+<section id="reviews" class="reviews reveal">
+
+    <h2 class="section-title">
+        Client <span>Reviews</span>
+    </h2>
+
+    <div class="testimonial-slider">
+
+        <div class="testimonial active">
+
+            <p>
+                "FitZone completely changed my body and confidence.
+                The trainers are amazing!"
+            </p>
+
+            <h3>Ali Hasan</h3>
+
+        </div>
+
+        <div class="testimonial">
+
+            <p>
+                "Best gym experience ever. Professional environment
+                and premium equipment."
+            </p>
+
+            <h3>Ahmad Khan</h3>
+
+        </div>
+
+        <div class="testimonial">
+
+            <p>
+                "I lost 12kg in just 3 months. Highly recommended!"
+            </p>
+
+            <h3>Usman Ali</h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- GALLERY -->
+
+<section class="gallery reveal" id="gallery">
+
+    <h2 class="section-title">
+        Gym <span>Gallery</span>
+    </h2>
+
+    <div class="gallery-container">
+
+        <div class="gallery-card">
+
+            <h3>Gym Equipment Room</h3>
+
+            <p>
+                Explore premium gym machines,
+                workout equipment, cardio zone,
+                strength setup and fitness areas.
+            </p>
+
+            <a href="gallery.html" class="btn">
+                View Full Gallery
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>FIT<span>ZONE</span></h2>
+
+            <p>
+                Transform your body and mind with
+                the best fitness experience.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#programs">Programs</a>
+            <a href="#trainers">Trainers</a>
+            <a href="#membership">Membership</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Contact</h3>
+
+            <p>Islamabad, Pakistan</p>
+            <p>fitzone@gmail.com</p>
+            <p>+92 300 1234567</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 FitZone Gym | All Rights Reserved
+        </p>
+
+    </div>
+
+</footer>
+<!-- FLOATING SOCIAL BAR -->
+
+<div class="social-bar">
+
+    <a href="#">
+        <i class='bx bxl-facebook'></i>
+    </a>
+
+    <a href="#">
+        <i class='bx bxl-instagram'></i>
+    </a>
+
+    <a href="#">
+        <i class='bx bxl-youtube'></i>
+    </a>
+
+    <a href="#">
+        <i class='bx bxl-tiktok'></i>
+    </a>
+
+</div>
+
+<div class="cursor"></div>
+<div class="cursor-border"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

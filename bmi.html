@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BMI Calculator | FitZone</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="logo">
+        FITZONE
+    </div>
+
+    <div class="menu-toggle">
+        ☰
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="program.html">Programs</a></li>
+
+            <li><a href="trainer.html">Trainers</a></li>
+
+            <li><a href="gallery.html">Gallery</a></li>
+
+            <li><a href="schedule.html">Schedule</a></li>
+
+            <li><a href="membership.html">Membership</a></li>
+
+            <li><a href="bmi.html" class="active">BMI</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- BMI HERO -->
+
+<section class="about-hero">
+
+    <div class="about-content">
+
+        <h1>
+            Calculate Your
+            <span class="about-typing"></span>
+        </h1>
+
+        <p>
+            Check your body fitness level
+            using our professional BMI
+            calculator system.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- BMI CALCULATOR -->
+
+<section class="bmi reveal">
+
+    <h2 class="section-title">
+        BMI <span>Calculator</span>
+    </h2>
+
+    <div class="bmi-box">
+
+        <input
+        type="number"
+        id="feet"
+        placeholder="Height (Feet)">
+
+        <input
+        type="number"
+        id="inches"
+        placeholder="Height (Inches)">
+
+        <input
+        type="number"
+        id="weight"
+        placeholder="Weight (KG)">
+
+        <button onclick="calculateBMI()">
+            Calculate BMI
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2026 FitZone Gym | All Rights Reserved
+    </p>
+
+</footer>
+
+<!-- CURSOR -->
+
+<div class="cursor"></div>
+<div class="cursor-border"></div>
+
+<!-- TOP BUTTON -->
+
+<button id="topBtn">
+    ↑
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
