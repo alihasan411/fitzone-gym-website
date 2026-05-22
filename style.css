@@ -1683,59 +1683,57 @@ footer{
 
 
 
-/* DESKTOP RESPONSIVE */
+/* DESKTOP RESPONSIVE FIX */
 
-@media(min-width:992px){
+@media (min-width: 992px){
 
-.hero{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:120px 10%;
-    min-height:100vh;
-    text-align:left;
-}
+  header{
+    padding: 20px 6%;
+  }
 
-.hero-content{
-    width:50%;
-}
+  .logo{
+    font-size: 2rem;
+  }
 
-.hero h1{
-    font-size:70px;
-    line-height:1.1;
-}
+  .navbar{
+    gap: 25px;
+  }
 
-.hero p{
-    font-size:20px;
-    max-width:600px;
-}
+  .navbar a{
+    font-size: 1rem;
+  }
 
-.hero-buttons{
-    display:flex;
-    gap:20px;
-    margin-top:30px;
-}
+  .hero{
+    padding: 0 8%;
+  }
 
-.hero-image{
-    width:45%;
-}
+  .hero-content{
+    max-width: 700px;
+  }
 
-.hero-image img{
-    width:100%;
-    border-radius:20px;
-}
+  .hero-content h1{
+    font-size: 5rem;
+    line-height: 1.1;
+  }
 
-.navbar{
-    padding:25px 10%;
-}
+  .hero-content p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 650px;
+  }
 
-.nav-links{
-    display:flex;
-    gap:35px;
-}
+  .hero-buttons{
+    margin-top: 30px;
+    gap: 20px;
+  }
 
-.menu-btn{
-    display:none;
-}
+  .btn{
+    padding: 16px 38px;
+    font-size: 1rem;
+  }
+
+  .social-icons{
+    right: 40px;
+  }
 
 }
