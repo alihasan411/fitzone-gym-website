@@ -1799,3 +1799,23 @@ footer{
         font-size:24px;
     }
 }
+
+
+
+
+/* HERO TEXT FIX */
+.hero h1{
+    max-width:900px;
+    margin:auto;
+    line-height:1.1;
+}
+
+/* SOCIAL BAR */
+.social-bar{
+    right:12px;
+}
+
+/* MOBILE NAV TEXT */
+nav ul li a{
+    font-size:14px;
+}
