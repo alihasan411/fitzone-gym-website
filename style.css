@@ -1741,3 +1741,61 @@ footer{
 
     display:block;
 }
+
+
+
+
+
+
+/* DESKTOP */
+@media(min-width:1024px){
+
+    header{
+        padding:20px 8%;
+    }
+
+    .logo{
+        font-size:38px;
+    }
+
+    nav ul{
+        gap:35px;
+    }
+
+    nav ul li a{
+        font-size:16px;
+    }
+
+    .hero{
+        padding:160px 8% 100px;
+    }
+
+    .hero h1{
+        font-size:90px;
+        line-height:1.1;
+    }
+
+    .hero p{
+        font-size:20px;
+        max-width:800px;
+    }
+
+    .hero-btns{
+        margin-top:20px;
+    }
+
+    .btn{
+        padding:16px 40px;
+        font-size:17px;
+    }
+
+    .social-bar{
+        right:25px;
+    }
+
+    .social-bar a{
+        width:55px;
+        height:55px;
+        font-size:24px;
+    }
+}
