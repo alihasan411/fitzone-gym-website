@@ -904,8 +904,8 @@ footer{
 #loader.hide{
     opacity:0;
     visibility:hidden;
+    transition:0.5s;
 }
-
 
 
 /* =========================
