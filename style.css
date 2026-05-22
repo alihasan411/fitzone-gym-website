@@ -904,8 +904,8 @@ footer{
 #loader.hide{
     opacity:0;
     visibility:hidden;
-    transition:0.5s;
 }
+
 
 
 /* =========================
@@ -1665,75 +1665,79 @@ footer{
 }
 
 /* MOBILE */
-
 @media(max-width:768px){
 
-    .main-bmi-card img{
-
-        height:250px;
+    .main-bmi{
+        grid-template-columns:1fr;
     }
 
-    .main-bmi-content h3{
+    .hero h1{
+        font-size:52px;
+    }
 
-        font-size:28px;
+    .section-title{
+        font-size:52px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .navbar{
+        position:fixed;
+        top:0;
+        right:-100%;
+        width:260px;
+        height:100vh;
+        background:#111;
+        flex-direction:column;
+        padding-top:100px;
+        transition:0.4s;
+        z-index:1000;
+    }
+
+    .navbar.active{
+        right:0;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .trainer-container,
+    .plans-container,
+    .gallery-container,
+    .schedule-container,
+    .review-container{
+        grid-template-columns:1fr;
+    }
+
+    .social-sidebar{
+        right:10px;
+    }
+
+    .social-sidebar a{
+        width:55px;
+        height:55px;
+    }
+
+    .hero{
+        padding-top:140px;
     }
 
 }
 
 
 
+/* REVIEWS */
 
-/* DESKTOP RESPONSIVE FIX */
+.reviews .trainer-card img{
 
-@media (min-width: 992px){
+    width:100%;
 
-  header{
-    padding: 20px 6%;
-  }
+    height:220px;
 
-  .logo{
-    font-size: 2rem;
-  }
+    object-fit:cover;
 
-  .navbar{
-    gap: 25px;
-  }
-
-  .navbar a{
-    font-size: 1rem;
-  }
-
-  .hero{
-    padding: 0 8%;
-  }
-
-  .hero-content{
-    max-width: 700px;
-  }
-
-  .hero-content h1{
-    font-size: 5rem;
-    line-height: 1.1;
-  }
-
-  .hero-content p{
-    font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 650px;
-  }
-
-  .hero-buttons{
-    margin-top: 30px;
-    gap: 20px;
-  }
-
-  .btn{
-    padding: 16px 38px;
-    font-size: 1rem;
-  }
-
-  .social-icons{
-    right: 40px;
-  }
-
+    display:block;
 }
