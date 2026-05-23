@@ -1840,3 +1840,23 @@ nav ul li a{
     }
 
 }
+
+
+
+/* REMOVE TAP HIGHLIGHT ON MOBILE */
+
+nav ul li a,
+.btn,
+.social-bar a{
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* FIX ACTIVE TOUCH EFFECT */
+
+nav ul li a:focus{
+    outline:none;
+}
+
+nav ul li a:active{
+    background:transparent;
+}
