@@ -1860,3 +1860,9 @@ nav ul li a:focus{
 nav ul li a:active{
     background:transparent;
 }
+
+
+
+*{
+    outline:none;
+}
